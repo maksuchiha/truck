@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Корзина</title>
+    <link rel="stylesheet" href="./../style/css/style.css">
+</head>
+<body>
+<div class="products-bg">
+    <header class="header">
+        <div class="header__inner header_bg">
+            <button class="header__close">
+                <svg viewBox="0 0 512 512" width="512px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><style type="text/css"></style><g class="st2" id="cross"><g class="st0"><line class="st1" x1="112.5" x2="401" y1="112.5" y2="401"/><line class="st1" x1="401" x2="112.5" y1="112.5" y2="401"/></g></g><g id="cross_copy"><path d="M268.064,256.75l138.593-138.593c3.124-3.124,3.124-8.189,0-11.313c-3.125-3.124-8.189-3.124-11.314,0L256.75,245.436   L118.157,106.843c-3.124-3.124-8.189-3.124-11.313,0c-3.125,3.124-3.125,8.189,0,11.313L245.436,256.75L106.843,395.343   c-3.125,3.125-3.125,8.189,0,11.314c1.562,1.562,3.609,2.343,5.657,2.343s4.095-0.781,5.657-2.343L256.75,268.064l138.593,138.593   c1.563,1.562,3.609,2.343,5.657,2.343s4.095-0.781,5.657-2.343c3.124-3.125,3.124-8.189,0-11.314L268.064,256.75z"/></g></svg>
+            </button>
+            <nav class="header-nav">
+                <ul class="header-nav__list">
+                    <li>
+                        <a href="#" class="header-nav__link">
+                            Каталог
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="header-nav__link">
+                            Информация
+                        </a>
+                    </li>
+                    <li class="header-nav__search">
+                        <a href="#" class="header-nav__link">
+                            <img src="./../img/icons/search.svg" alt="search">
+                        </a>
+                        <form action="#" class="header-form">
+                            <input aria-label="" type="search">
+                        </form>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header__info">
+                <a href="tel:+73022571660" class="header__phone">
+                    <img src="./../img/icons/phone.svg" alt="phone">
+                    +7 (3022)57-16-60
+                </a>
+                <a href="#" class="header-cart">
+                    <img src="./../img/icons/cart.svg" alt="cart">
+                    <span class="header-cart__counter">2</span>
+                </a>
+                <a href="#" class="header__cabinet">
+                    <img src="./../img/icons/man.svg" alt="cabinet">
+                </a>
+            </div>
+        </div>
+        <a href="#" class="logo">
+            <img src="./../img/logo.png" alt="logo">
+        </a>
+        <svg class="header__left-lines" width="90" height="125" viewBox="0 0 90 125" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 0L90 7V38L0 45V0Z" fill="white"/>
+            <path d="M0 80L90 87V118L0 125V80Z" fill="white"/>
+        </svg>
+        <div class="header__mob-icons">
+            <button class="header-burger">
+                <img src="./../img/icons/burger.svg" alt="burger">
+            </button>
+            <a href="#" class="header-cart">
+                <img src="./../img/icons/cart.svg" alt="cart">
+                <span class="header-cart__counter">2</span>
+            </a>
+        </div>
+    </header>
+    <section class="cart">
+        <h1 class="title title_white">корзина</h1>
+        <div class="cart__inner">
+            <div class="cart__wr">
+                <div class="cart-item">
+                    <div class="cart-item__img">
+                        <img src="./../img/cart/1.jpg" alt="order">
+                    </div>
+                    <div class="cart-item__info">
+                        <div class="cart-item-pos">
+                            <div class="cart-item-pos__name">
+                                Название:
+                            </div>
+                            <div class="cart-item-pos__desc">
+                                название товара
+                            </div>
+                        </div>
+                        <div class="cart-item-pos">
+                            <div class="cart-item-pos__name">
+                                Артикул:
+                            </div>
+                            <div class="cart-item-pos__desc">
+                                111-11-1111
+                            </div>
+                        </div>
+                        <div class="cart-item-pos">
+                            <div class="cart-item-pos__name">
+                                Количество:
+                            </div>
+                            <div class="cart-item-pos__counter">
+                                <button class="cart-item-pos__btn">-</button>
+                                <span class="cart-item-pos__count">1</span>
+                                <button class="cart-item-pos__btn">+</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-item__buttons">
+                        <button class="button button_cart cart-item__del">удалить</button>
+                        <button class="button button_now cart-item__buy">Заказать сейчас</button>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <div class="cart-item__img">
+                        <img src="./../img/cart/1.jpg" alt="order">
+                    </div>
+                    <div class="cart-item__info">
+                        <div class="cart-item-pos">
+                            <div class="cart-item-pos__name">
+                                Название:
+                            </div>
+                            <div class="cart-item-pos__desc">
+                                название товара
+                            </div>
+                        </div>
+                        <div class="cart-item-pos">
+                            <div class="cart-item-pos__name">
+                                Артикул:
+                            </div>
+                            <div class="cart-item-pos__desc">
+                                111-11-1111
+                            </div>
+                        </div>
+                        <div class="cart-item-pos">
+                            <div class="cart-item-pos__name">
+                                Количество:
+                            </div>
+                            <div class="cart-item-pos__counter">
+                                <button class="cart-item-pos__btn">-</button>
+                                <span class="cart-item-pos__count">1</span>
+                                <button class="cart-item-pos__btn">+</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="cart-item__buttons">
+                        <button class="button button_cart cart-item__del">удалить</button>
+                        <button class="button button_now cart-item__buy">Заказать сейчас</button>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <div class="cart-item__img">
+                        <img src="./../img/cart/1.jpg" alt="order">
+                    </div>
+                    <div class="cart-item__info">
+                        <div class="cart-item-pos">
+                            <div class="cart-item-pos__name">
+                                Название:
+                            </div>
+                            <div class="cart-item-pos__desc">
+                                название товара
+                            </div>
+                        </div>
+                        <div class="cart-item-pos">
+                            <div class="cart-item-pos__name">
+                                Артикул:
+                            </div>
+                            <div class="cart-item-pos__desc">
+                                111-11-1111
+                            </div>
+                        </div>
+                        <div class="cart-item-pos">
+                            <div class="cart-item-pos__name">
+                                Количество:
+                            </div>
+                            <div class="cart-item-pos__counter">
+                                <button class="cart-item-pos__btn">-</button>
+                                <span class="cart-item-pos__count">1</span>
+                                <button class="cart-item-pos__btn">+</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="cart-item__buttons">
+                        <button class="button button_cart cart-item__del">удалить</button>
+                        <button class="button button_now cart-item__buy">Заказать сейчас</button>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <div class="cart-item__img">
+                        <img src="./../img/cart/1.jpg" alt="order">
+                    </div>
+                    <div class="cart-item__info">
+                        <div class="cart-item-pos">
+                            <div class="cart-item-pos__name">
+                                Название:
+                            </div>
+                            <div class="cart-item-pos__desc">
+                                название товара
+                            </div>
+                        </div>
+                        <div class="cart-item-pos">
+                            <div class="cart-item-pos__name">
+                                Артикул:
+                            </div>
+                            <div class="cart-item-pos__desc">
+                                111-11-1111
+                            </div>
+                        </div>
+                        <div class="cart-item-pos">
+                            <div class="cart-item-pos__name">
+                                Количество:
+                            </div>
+                            <div class="cart-item-pos__counter">
+                                <button class="cart-item-pos__btn">-</button>
+                                <span class="cart-item-pos__count">1</span>
+                                <button class="cart-item-pos__btn">+</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="cart-item__buttons">
+                        <button class="button button_cart cart-item__del">удалить</button>
+                        <button class="button button_now cart-item__buy">Заказать сейчас</button>
+                    </div>
+                </div>
+                <button class="button button_cart cart__now">Заказать сейчас</button>
+            </div>
+        </div>
+    </section>
+</div>
+<div class="products-bg-bottom">
+    <div class="contacts">
+        <h2 class="title title_white">контакты</h2>
+        <div class="card-info products__mb">
+            <ul class="card-info__left">
+                <li class="card-info-item">
+                    <span class="card-info-item__name">Адрес</span>
+                    <span class="card-info-item__text">
+                        <img src="./../img/icons/geo-mark.svg" alt="geo-mark">
+                        г. Чита, Экспедиционный туп., дом № 8, корпус 1, помещение 2
+                    </span>
+                </li>
+                <li class="card-info-item">
+                    <span class="card-info-item__name">режим работы</span>
+                    <span class="card-info-item__text">
+                        <img src="./../img/icons/time.svg" alt="time">
+                        пн - пт с 9:00 до 17:00 | сб - вс выходной
+                    </span>
+                </li>
+                <li class="card-info-item">
+                    <span class="card-info-item__name">телефон</span>
+                    <span class="card-info-item__text">
+                        <img src="./../img/icons/phone_black.svg" alt="phone">
+                        <a class="card-info-item__link" href="tel:+73022571660">
+                            +7 (3022)57-16-60
+                        </a>
+                    </span>
+                </li>
+                <li class="card-info-item">
+                    <span class="card-info-item__name">e-mail</span>
+                    <span class="card-info-item__text">
+                        <img src="./../img/icons/mail.svg" alt="mail">
+                        <a class="card-info-item__link" href="mailto:s_trak75@mail.ru">
+                            s_trak75@mail.ru
+                        </a>
+                    </span>
+                </li>
+                <li class="card-info-item">
+                    <span class="card-info-item__name">сайт</span>
+                    <span class="card-info-item__text">
+                        <img src="./../img/icons/site.svg" alt="site">
+                        сайт.сom
+                    </span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <section class="map"></section>
+    <footer class="footer">
+        <div class="footer__inner">
+            <h3 class="footer__title">Политика конфиденциальности</h3>
+            <p class="footer__text">
+                Данный сайт носит исключительно информационный характер и ни при каких условиях информационные материалы и цены,
+                размещенные на сайте, не являются публичной офертой, определяемой положениями Статей 435 и 437 Гражданского Kодекса РФ
+            </p>
+        </div>
+    </footer>
+</div>
+<div class="overlay">
+    <div class="modal">
+        <h2 class="modal__title">
+            ОФОРМЛЕНИЕ ЗАКАЗА
+        </h2>
+        <form action="#" class="modal-form">
+            <input placeholder="Ваше имя" name="name" class="" aria-label="" type="text">
+            <input placeholder="Номер телефона*" name="phone" class="" aria-label="" type="text">
+            <input placeholder="E-mail" name="email" class="" aria-label="" type="text">
+            <div class="modal-form__info">
+                Нажимая кнопку “ЗАКАЗАТЬ” вы соглашаетесь с политикой конфиденциальности
+                <br>
+                <br>
+                * - поле обязательно для заполнения
+            </div>
+            <button class="button button_order">заказать</button>
+        </form>
+        <button class="modal__close">
+            <img src="./../img/icons/close.svg" alt="close">
+        </button>
+    </div>
+</div>
+</body>
+</html>
