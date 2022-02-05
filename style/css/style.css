@@ -560,6 +560,10 @@ ul {
   .header-form-mob {
     position: relative;
     width: 100%;
+    display: flex;
+  }
+  .header .card-info {
+    display: flex;
   }
   .header .header-nav {
     width: 100%;
