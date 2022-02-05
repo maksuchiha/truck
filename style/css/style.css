@@ -362,6 +362,12 @@ ul {
 .header__inner .logo {
   display: none;
 }
+.header .card-info {
+  display: none;
+}
+.header-form-mob {
+  display: none;
+}
 .header__close {
   display: none;
 }
