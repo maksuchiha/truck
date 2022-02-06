@@ -183,6 +183,7 @@ ul {
   background: #4C4C4C;
   position: relative;
   padding-bottom: 95px;
+  overflow-x: hidden;
 }
 .products-bg-bottom {
   padding-top: 235px;
@@ -2113,6 +2114,7 @@ ul {
   min-height: 100vh;
   padding-bottom: 80px;
   position: relative;
+  overflow-x: hidden;
 }
 
 .error__title {
